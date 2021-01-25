@@ -1,5 +1,5 @@
 //Countdown Function
-var countDownDate = new Date("Jan 30, 2021 23:59:59").getTime();
+var countDownDate = new Date("Jan 31, 2021 23:59:59").getTime();
 var x = setInterval(function() {
 var now = new Date().getTime();
 var timeRemaining = countDownDate - now;
