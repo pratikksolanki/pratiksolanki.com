@@ -85,13 +85,13 @@ section {
     color: #121212;
 }
 
-#maintenance {
+.maintenance {
     font-size: 1em;
     /* text-align: center; */
 }
 
 
-#maintenance p:nth-of-type(1) {
+.maintenance p:nth-of-type(1) {
     font-size: 0.8em;
     margin-bottom: 24px;
 }
@@ -186,7 +186,7 @@ section {
         font-size: 1.2em;
     }
 
-    #maintenance {
+    .maintenance {
         font-size: 1.5em;
     }
 
@@ -210,10 +210,88 @@ section {
     #intro-box h1 {
         font-size: 1.75em;
     }
-    #maintenance {
+    .maintenance {
         font-size: 0.75em;
     }
 }
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+        transform: translateX(-100%);
+    }
+
+    70% {
+        opacity: 0;
+        
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateX(0%);
+    }
+}
+
+@keyframes maintenance-box {
+    0% {
+        opacity: 0;
+        transform: translateX(-100%);
+    }
+
+    70% {
+        opacity: 0;
+        
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateX(0%);
+    }
+}
+
+@keyframes fadeToTop {
+    0% {
+        opacity: 0;
+        transform: translateY(100%);
+    }
+
+    70% {
+        opacity: 0;
+        
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0%);
+    }
+}
+
+.line1 {
+    animation: fadeIn 1s cubic-bezier(.67,.88,.65,1.02);
+    transform-origin: left ;
+}
+
+.line2 {
+    animation: fadeIn 2s cubic-bezier(.67,.88,.65,1.02);
+    transform-origin: left ;
+}
+
+.line3 {
+    animation: fadeIn 3s cubic-bezier(.67,.88,.65,1.02);
+    transform-origin: left ;
+}
+
+.line4 {
+    animation: maintenance-box 4s cubic-bezier(.67,.88,.65,1.02);
+    transform-origin: left ;
+}
+
+.bottom {
+    animation: fadeToTop 4s cubic-bezier(.67,.88,.65,1.02);
+    transform-origin: bottom ;
+}
+
+
 
 
 
