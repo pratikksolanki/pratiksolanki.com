@@ -232,23 +232,6 @@ section {
     }
 }
 
-@keyframes maintenance-box {
-    0% {
-        opacity: 0;
-        transform: translateX(-100%);
-    }
-
-    70% {
-        opacity: 0;
-        
-    }
-
-    100% {
-        opacity: 1;
-        transform: translateX(0%);
-    }
-}
-
 @keyframes fadeToTop {
     0% {
         opacity: 0;
@@ -278,11 +261,6 @@ section {
 
 .line3 {
     animation: fadeIn 3s cubic-bezier(.67,.88,.65,1.02);
-    transform-origin: left ;
-}
-
-.line4 {
-    animation: maintenance-box 4.5s cubic-bezier(.67,.88,.65,1.0);
     transform-origin: left ;
 }
 
