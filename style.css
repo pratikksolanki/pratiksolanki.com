@@ -282,12 +282,12 @@ section {
 }
 
 .line4 {
-    animation: maintenance-box 4s cubic-bezier(.67,.88,.65,1.02);
+    animation: maintenance-box 4.5s cubic-bezier(.67,.88,.65,1.02);
     transform-origin: left ;
 }
 
 .bottom {
-    animation: fadeToTop 4s cubic-bezier(.67,.88,.65,1.02);
+    animation: fadeToTop 4.5s cubic-bezier(.67,.88,.65,1.02);
     transform-origin: bottom ;
 }
 
