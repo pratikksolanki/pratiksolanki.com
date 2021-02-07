@@ -267,27 +267,27 @@ section {
 }
 
 .line1 {
-    animation: fadeIn 1s cubic-bezier(.67,.88,.65,1.02);
+    animation: fadeIn 1s cubic-bezier(.67,.88,.65,1.0);
     transform-origin: left ;
 }
 
 .line2 {
-    animation: fadeIn 2s cubic-bezier(.67,.88,.65,1.02);
+    animation: fadeIn 2s cubic-bezier(.67,.88,.65,1.0);
     transform-origin: left ;
 }
 
 .line3 {
-    animation: fadeIn 3s cubic-bezier(.67,.88,.65,1.02);
+    animation: fadeIn 3s cubic-bezier(.67,.88,.65,1.0);
     transform-origin: left ;
 }
 
 .line4 {
-    animation: maintenance-box 4s cubic-bezier(.67,.88,.65,1.02);
+    animation: maintenance-box 4s cubic-bezier(.67,.88,.65,1.0);
     transform-origin: left ;
 }
 
 .bottom {
-    animation: fadeToTop 4s cubic-bezier(.67,.88,.65,1.02);
+    animation: fadeToTop 4s cubic-bezier(.67,.88,.65,1.0);
     transform-origin: bottom ;
 }
 
