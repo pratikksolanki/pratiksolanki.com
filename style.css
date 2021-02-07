@@ -261,7 +261,7 @@ section {
 
 .line3 {
     animation: fadeIn 3s cubic-bezier(.67,.88,.65,1.02);
-    transform-origin: bottom ;
+    transform-origin: left;
 }
 
 .bottom {
