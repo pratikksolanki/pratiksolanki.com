@@ -16,5 +16,3 @@ if (timeRemaining < 0) {
     document.getElementById("launch").innerHTML = "soon";
 }
 }, 1000);
-
-//Auto Year Change Function
