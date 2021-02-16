@@ -23,7 +23,7 @@ body {
 a {
     text-decoration: none;
 }
-a:link {
+/* a:link {
     color: #6A26CD;
 }
 a:hover {
@@ -34,7 +34,7 @@ a:active{
 }
 a:visited {
     color: #6A26CD;
-}
+} */
 
 section {
     height: 100vh;
@@ -66,8 +66,8 @@ section {
     margin-bottom: 8px;
     letter-spacing: 0;
     /* color: #DCF7FF; */
-    color: #464646;
-    
+    /* color: #464646; */
+    color: #b3b3b3;
 }
 
 
@@ -82,7 +82,6 @@ section {
     font-size: 1em;
     font-weight: 300;
     margin-bottom: 80px;
-    color: #121212;
 }
 
 .maintenance {
@@ -100,6 +99,7 @@ section {
     color: white;
     background-color: #121212;
     padding: 5px;
+    
     
 }
 
@@ -143,14 +143,14 @@ section {
     justify-content: center;
     align-items: center;
     background-color: #121212;
-    color: rgb(179, 179, 179);
+    color: #b3b3b3;
     text-align: center;
     padding: 8px 0px;
 }
 
-#footer a:hover, #footer a:active {
+/* #footer a:hover, #footer a:active {
     color: #4E91FD;
-}
+} */
 
 #footer p {
     font-size: 0.9em;
@@ -171,6 +171,50 @@ section {
 
 .icons a:focus {
     transform: translateY(-0.25em)
+}
+
+@media (prefers-color-scheme: light) {
+    body, #intro-box h3, #intro-box h1 {
+        color: #121212;
+    }
+    #intro-box h2 {
+        color: #464646;
+    }
+    #footer {
+        color: #b3b3b3;
+    }
+    .link-icons, #highlight {
+        color: #ffffff;
+    }
+    section, .container {
+        background-color: #ffffff;
+        
+    }
+    #highlight, #footer {
+        background-color: #121212;
+    }
+
+}
+
+@media (prefers-color-scheme: dark) {
+    body, h1, h3 {
+        color: #c5c5c5;
+    }
+    #intro-box h2 {
+        color: #cfcfcf;
+    }
+    .link-icons, #highlight, #footer {
+        color: #b3b3b3;
+    }
+    section, .container {
+        background-color: #121212;
+        
+    }
+    #highlight, #footer {
+        background-color: #212121;
+        box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    }
+
 }
 
 @media (min-width: 750px){
@@ -250,24 +294,26 @@ section {
 }
 
 .line1 {
-    animation: fadeIn 1s cubic-bezier(.67,.88,.65,1.02);
+    animation: fadeIn .4s cubic-bezier(.67,.88,.65,1.02);
     transform-origin: left ;
 }
 
 .line2 {
-    animation: fadeIn 2s cubic-bezier(.67,.88,.65,1.02);
+    animation: fadeIn .9s cubic-bezier(.67,.88,.65,1.02);
     transform-origin: left ;
 }
 
 .line3 {
-    animation: fadeIn 3s cubic-bezier(.67,.88,.65,1.02);
+    animation: fadeIn 1.4s cubic-bezier(.67,.88,.65,1.02);
     transform-origin: left;
 }
 
 .bottom {
-    animation: fadeToTop 4.5s cubic-bezier(.67,.88,.65,1.0);
+    animation: fadeToTop 1.9s cubic-bezier(.67,.88,.65,1.0);
     transform-origin: bottom ;
 }
+
+
 
 
 
