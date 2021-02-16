@@ -89,9 +89,6 @@ section {
     background-color: #121212;
     padding: 5px;
     border-radius: 2px;
-    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.12);
-    
-    
 }
 
 #countdown {
@@ -165,6 +162,9 @@ section {
 }
 
 @media (prefers-color-scheme: light) {
+    body {
+        background-color: #121212;
+    }
     body, #intro-box h3, #intro-box h1 {
         color: #121212;
     }
@@ -183,7 +183,6 @@ section {
     }
     #highlight, #footer {
         background-color: #121212;
-        box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.12);
     }
 
 }
