@@ -39,7 +39,7 @@ section {
     display: flex;
     flex-direction: column;
     /* flex: 3fr 1fr; */
-    justify-content: top;
+    justify-content: center;
     align-items: center;
     height: 100vh;
     width: 80%;
@@ -48,10 +48,6 @@ section {
     width: 100%; */
     max-width: 960px;
     display: flex;
-}
-
-#intro-box {
-    margin-top: 30%;
 }
 
 #intro-box h2 {
@@ -243,6 +239,14 @@ section {
     
     .icons{
         font-size: 1.4em;
+    }
+
+    .container {
+        justify-content: left;
+    }
+
+    #intro-box {
+        margin-top: 40%;
     }
     
 }
