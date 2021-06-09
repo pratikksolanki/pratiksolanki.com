@@ -161,9 +161,37 @@ section {
 }
 
 /* Media Queries */
+
+@media (min-width: 200px) {
+    h1 {
+        font-size: 6em;
+    }
+    h2 {
+        font-size: 1.25em;
+    }
+    h4 {
+        font-size: 0.8em;
+    }
+}
+
+@media (min-width: 330px) {
+    h4 {
+        font-size: 1.1em;
+    }
+}
+
 @media (min-width: 576px){
     .container {
         max-width: 540px;
+    }
+    h1 {
+        font-size: 8em;
+    }
+    h2 {
+        font-size: 1.5em;
+    }
+    h4 {
+        font-size: 1.25em;
     }
 
 }
