@@ -131,6 +131,10 @@ section {
     color: #5c5c5c;
 }
 
+#countdown {
+    font-family: 'SF Mono', SFMono-Regular, ui-monospace,'DejaVu Sans Mono', Menlo, Consolas, monospace;
+}
+
 @keyframes fadeIn {
     0% {
         opacity: 0;
