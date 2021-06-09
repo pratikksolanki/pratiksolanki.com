@@ -6,7 +6,7 @@ var timer = setInterval(function(){
     window.location.href = 'https://pratiksolanki.com/';
     document.getElementById("countdown").innerHTML = "1";
   } else {
-    document.getElementById("countdown").innerHTML = (timeleft + 1);
+    document.getElementById("countdown").innerHTML = "(" + (timeleft + 1) + ")";
   }
   timeleft -= 1;
 }, 1000);
