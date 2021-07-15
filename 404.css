@@ -38,7 +38,7 @@ a {
     position: relative;
     letter-spacing: 10;
     /* color: #243a69; */
-    color: #83beec;
+    color: hsl(206, 56%, 56%);
 }
 a:after {    
     background: none repeat scroll 0 0 transparent;
