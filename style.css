@@ -583,3 +583,57 @@ footer p {
         background-position: 0% 50%;
     }
 }
+
+/* @keyframes fadeIn {
+    0% {
+        opacity: 0;
+        transform: translateX(-100%);
+    }
+
+    70% {
+        opacity: 0;
+        
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateX(0%);
+    }
+}
+
+@keyframes fadeToTop {
+    0% {
+        opacity: 0;
+        transform: translateY(100%);
+    }
+
+    70% {
+        opacity: 0;
+        
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0%);
+    }
+}
+
+.l1 {
+    animation: fadeToTop 0.3s cubic-bezier(.67,.88,.65,1.02);
+    transform-origin: left ;
+}
+
+.l2 {
+    animation: fadeToTop 0.5s cubic-bezier(.67,.88,.65,1.02);
+    transform-origin: left ;
+}
+
+.l3 {
+    animation: fadeToTop 0.7s cubic-bezier(.67,.88,.65,1.02);
+    transform-origin: left;
+}
+
+.fadein{
+    animation: fadeToTop 0.3s cubic-bezier(.67,.88,.65,1.0);
+    transform-origin: bottom ;
+} */
