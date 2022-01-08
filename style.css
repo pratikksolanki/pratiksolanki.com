@@ -375,6 +375,13 @@ footer p {
 }
 
 
+@-moz-document url-prefix() {
+    .tabs{
+        background: var(--grey-light);
+    }
+
+
+}
 
 
 
@@ -388,6 +395,15 @@ footer p {
     .tabs{
         background: var(--dm-transparent);
     }
+
+    @-moz-document url-prefix() {
+        .tabs{
+            background: var(--dm-grey);
+        }
+    
+    
+    }
+
     .tab-btn, a, a:active, a:hover{
         color: var(--dm-txt);
     }
