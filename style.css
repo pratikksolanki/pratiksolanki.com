@@ -60,6 +60,8 @@
 
 html {
     scroll-behavior: smooth;
+    overflow-y: scroll; 
+    -webkit-overflow-scrolling: touch;
 }
 /* 
 footer{
@@ -367,7 +369,8 @@ footer{
 footer p {
     font-family: var(--mono-font);
     font-weight: 400;
-    font-size: 12px
+    font-size: 12px;
+    padding: 10px 0px;
 }
 
 
