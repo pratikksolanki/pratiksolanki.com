@@ -130,6 +130,7 @@ a, a:active, a:hover{
     color: var(--blk);
     z-index: 100;
     backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
     transition: 0.1s;
     margin-top: 1rem;
 
