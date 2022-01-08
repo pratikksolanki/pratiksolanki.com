@@ -183,7 +183,7 @@ section{
     justify-content: center;
     align-items: center; */
     font-size: 1.1rem;
-    min-height: 90vh;
+    min-height: 100vh;
 }
 
 #hi{
@@ -479,11 +479,11 @@ footer p {
     }
 
     #hi{
-        font-size: 0.85rem;
+        font-size: 1rem;
     }
 
     .large{
-        font-size: 1.8rem;
+        font-size: 2.3rem;
     }
 
 
@@ -499,6 +499,14 @@ footer p {
 
     .section-container{
         width: 260px;
+    }
+
+    #hi{
+        font-size: 0.85rem;
+    }
+
+    .large{
+        font-size: 1.9rem;
     }
 }
 
