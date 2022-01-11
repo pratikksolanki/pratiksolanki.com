@@ -196,7 +196,7 @@ section{
     justify-content: center;
     align-items: center; */
     font-size: 1.1rem;
-    min-height: 90vh;
+    min-height: 100vh;
 }
 
 #hi{
@@ -292,7 +292,7 @@ section{
 }
 
 .intro{
-    margin-top: 10vh;
+    /* margin-top: 10vh; */
     display: flex;
     flex-direction: column;
     justify-content: center;
