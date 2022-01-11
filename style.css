@@ -30,8 +30,8 @@
     --svg-filter-blue: invert(23%) sepia(96%) saturate(2420%) hue-rotate(210deg) brightness(101%) contrast(112%);
     /* --blue-shadow: rgb(54, 132, 248); */
     --blue-shadow: rgb(89, 156, 255);
-    --box-shadow: rgba(17, 12, 46, 0.15) 0px 24px 48px 0px;
-    --dm-box-shadow: rgba(186, 181, 209, 0.144) 0px 24px 48px 0px;
+    --box-shadow: rgba(17, 12, 46, 0.15) 0px 0px 48px 0px;
+    --dm-box-shadow: rgba(186, 181, 209, 0.144) 0px 0px 48px 0px;
 
     --transparent: rgba(29, 29, 29, 0.08);
 
