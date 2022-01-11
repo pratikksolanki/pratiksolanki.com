@@ -54,6 +54,7 @@
 
     /* Extra Visuals */
     --light-drop-shadow: drop-shadow(-0px 0px 4px var(--blue-shadow));
+    --scrollbar-colour: #474b56; 
 
     
 }
@@ -80,7 +81,7 @@ footer{
   }
   
   ::-webkit-scrollbar-thumb {
-    background-color: #474b56;   
+    background-color: var(--scrollbar-colour); 
     border-radius: 980px;       
   }
 
@@ -111,6 +112,10 @@ nav{
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
+}
+
+#nav{
+    transition: all 0.3s var(--cubic-bezier-slide);
 }
 
 a, a:active, a:hover{
