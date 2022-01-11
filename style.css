@@ -7,19 +7,25 @@
     --grey-dark: #3A3A3C;
     --not-white: #f6f8fa;
     --white: #FFF;
+    --svg-filter-white: invert(98%) sepia(25%) saturate(17%) hue-rotate(26deg) brightness(111%) contrast(100%);
+
+    --lm-bg: #f9fafc;
 
 
-    --lm-heading: #292e31;
+    /* --lm-heading: #292e31; */
+    --lm-heading: #304151;
 
     /* Blue Theme */
     /* background */
     --frost: #eff7ff;
+    --svg-filter-frost: invert(90%) sepia(13%) saturate(352%) hue-rotate(191deg) brightness(104%) contrast(102%);
     /* font(s) */
     --b1: #143881;
     /* --blk: #1B1B1B; */
     --blk: #0D1117;
 
     --blue: #06f;
+    --svg-filter-dark-blue: invert(21%) sepia(15%) saturate(1086%) hue-rotate(168deg) brightness(95%) contrast(88%);
     --svg-filter-blue: invert(23%) sepia(96%) saturate(2420%) hue-rotate(210deg) brightness(101%) contrast(112%);
     /* --blue-shadow: rgb(54, 132, 248); */
     --blue-shadow: rgb(89, 156, 255);
@@ -86,7 +92,8 @@ footer{
   }
 
 body{
-    background: var(--white);
+    /* background: var(--white); */
+    background: var(--lm-bg);
     color: var(--blk);
     font-family: var(--sans-font);
     display: flex;
@@ -341,9 +348,11 @@ section{
 }
 
 .icon{
-    height: 1.6rem;
+    height: 1.8rem;
     aspect-ratio: 1 / 1;
+
     transition: 0.2s;
+    filter: var(--svg-filter-dark-blue);
 }
 
 .icon:hover, .icon:active{
@@ -352,7 +361,6 @@ section{
 
 .icon:hover{
     /* filter: drop-shadow(-0px 0px 8px var(--blue)); */
-    filter: var(--svg-filter-blue);
     margin-top: -8px;
 }
 
@@ -419,20 +427,21 @@ footer p {
     #hi{
         color: var(--dm-txt);
     }
+
     .large{
-        color: var(--dm-txt);
+        color: var(--);
         font-weight: 800;
     }
 
-    .btn-a{
+    /* .btn-a{
         background: var(--dm-transparent);
     }
     .btn-a:hover{
         filter: var(--dm-drop-shadow);
         background: var(--blue);
-    }
+    } */
     .btn-l{
-        filter: var(--filter-dm-txt);
+        filter: var(--svg-filter-white);
     }
 
 }
