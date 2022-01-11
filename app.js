@@ -1,20 +1,20 @@
 
-let prevPos = window.pageYOffset;
+// let prevPos = window.pageYOffset;
 const tabButtons = Array.from(document.getElementsByClassName('tab-btn'));
 let currentTab = tabButtons[0];
 const sections = document.querySelectorAll("section");
 const navLinks = document.querySelectorAll("header nav ul li");
 const tabHighlight = document.getElementById('tab-btn-highlight');
 
-window.onscroll = function() {
-    let curPos = window.pageYOffset;
-    if (prevPos > curPos) {
-      document.getElementById("nav").style.top = "0";
-    } else {
-      document.getElementById("nav").style.top = "-100px";
-    }
-    prevPos = curPos;
-  }
+// window.onscroll = function() {
+//     let curPos = window.pageYOffset;
+//     if (prevPos > curPos) {
+//       document.getElementById("nav").style.top = "0";
+//     } else {
+//       document.getElementById("nav").style.top = "-100px";
+//     }
+//     prevPos = curPos;
+//   }
 
 const activeToggle = (item) => {
     currentTab.classList.remove('tab-btn-highlight');

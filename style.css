@@ -114,9 +114,9 @@ nav{
     align-items: center;
 }
 
-#nav{
+/* #nav{
     transition: all 0.3s var(--cubic-bezier-slide);
-}
+} */
 
 a, a:active, a:hover{
     text-decoration: none;
