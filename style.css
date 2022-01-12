@@ -66,7 +66,14 @@
     /* Extra Visuals */
     --light-drop-shadow: drop-shadow(-0px 0px 4px var(--blue-shadow));
     --scrollbar-colour: #474b56;
+
+    --link-cursor: url("data:image/svg+xml;utf8, <svg xmlns='http://www.w3.org/2000/svg' width='32' height='32' style='font-size: 24px'><text y='24'>👆</text></svg>"), auto;
+    --wave-cursor: url("data:image/svg+xml;utf8, <svg xmlns='http://www.w3.org/2000/svg' width='32' height='32' style='font-size: 24px'><text y='24'>👋</text></svg>"), auto;
+    --rocket: url("data:image/svg+xml;utf8, <svg xmlns='http://www.w3.org/2000/svg' width='32' height='32' style='font-size: 24px'><text y='24'>🚀</text></svg>"), auto;
     
+    --github-cursor: url("data:image/svg+xml;utf8, <svg xmlns='http://www.w3.org/2000/svg' width='32' height='32' style='font-size: 24px'><text y='24'>👨‍💻</text></svg>"), auto;
+    --linkedin-cursor: url("data:image/svg+xml;utf8, <svg xmlns='http://www.w3.org/2000/svg' width='32' height='32' style='font-size: 24px'><text y='24'>🎓</text></svg>"), auto;
+    --email-cursor: url("data:image/svg+xml;utf8, <svg xmlns='http://www.w3.org/2000/svg' width='32' height='32' style='font-size: 24px'><text y='24'>📧</text></svg>"), auto;
 }
 
 html {
@@ -931,6 +938,20 @@ footer p {
 
 }
 
+/* Custom Cursors */
+/* #intro-text:hover{
+    cursor: var(--home-cursor);
+}
+
+#contact a:hover{
+    cursor: var(--contact-cursor);
+} */
+
+
 /* a:hover{
     cursor: var(--cursor);
 } */
+
+#contact-wrapper a{
+    cursor: var(--rocket);
+}
