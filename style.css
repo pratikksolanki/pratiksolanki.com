@@ -268,7 +268,15 @@ section:nth-of-type(1){
 }
 
 section:nth-last-of-type(1){
-    min-height: 50vh;
+    min-height: 90vh;
+}
+
+#contact-wrapper{
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 #hi{
