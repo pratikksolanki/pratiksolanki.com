@@ -1,4 +1,9 @@
-/* CSS Reset & Basics */
+:root{
+    --cursor: url("data:image/svg+xml;utf8, <svg xmlns='http://www.w3.org/2000/svg' width='32' height='32' style='font-size: 24px'><text y='24'>👆</text></svg>"), auto;
+    --cursor-pointer: url("data:image/svg+xml;utf8, <svg xmlns='http://www.w3.org/2000/svg' width='32' height='32' style='font-size: 24px'><text y='24'>🚀</text></svg>"), auto;
+}
+
+/* CSS Reset */
 html,
 body,
 ul,
@@ -28,6 +33,11 @@ body {
     overflow: hidden;
 }
 
+body:hover{
+    cursor: var(--cursor);
+}
+
+
 a, a:visited, a:active {
 text-decoration: none;
 }
@@ -38,7 +48,8 @@ a {
     position: relative;
     letter-spacing: 10;
     /* color: #243a69; */
-    color: hsl(206, 56%, 56%);
+    color: #121212;
+    font-weight: 500;
 }
 a:after {    
     background: none repeat scroll 0 0 transparent;
@@ -62,6 +73,9 @@ a:after {
 a:hover:after { 
     width: 100%; 
     left: 0; 
+}
+a:hover{
+    cursor: var(--cursor-pointer);
 }
 
 /* Font Sizing */
@@ -153,7 +167,7 @@ section {
 }
 
 .redirectLine {
-    animation: fadeIn 1.5s cubic-bezier(.67,.88,.65,1.02);
+    animation: fadeIn 0.6s cubic-bezier(.67,.88,.65,1.02);
     transform-origin: left ;
 }
 
@@ -237,6 +251,9 @@ section {
         color: #c0bfbf;
     }
 
+    a{
+        color: #FFF;
+    }
 }
 
 /* Gradient */
