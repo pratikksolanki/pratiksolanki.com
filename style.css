@@ -272,7 +272,7 @@ section:nth-last-of-type(1){
 }
 
 #contact-wrapper{
-    height: 70vh;
+    height: 60vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
