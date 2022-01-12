@@ -906,6 +906,10 @@ footer p {
     background-clip: text;
     } */
 
+    .link{
+        color: var(--white);
+    }
+
 
     footer{
         background-image: linear-gradient(300deg, var(--dm-tab-highlight), var(--scrollbar-colour));
