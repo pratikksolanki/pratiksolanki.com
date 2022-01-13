@@ -525,7 +525,6 @@ section:nth-last-of-type(1){
 #email{
     transition: all 0.3s;
     font-weight: 700;
-    color: var(--blk);
 }
 #email:hover #email:active{
     cursor: vertical-text;
