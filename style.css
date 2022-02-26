@@ -731,6 +731,9 @@ footer p {
 }
 
 .wip {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     /* background-image: linear-gradient(300deg, #9cd5b2, #d59ccc); */
     background-image: linear-gradient(300deg, var(--frost), var(--white));
     /* background-image: linear-gradient(300deg, #84bdce, #9b8ee6); */
