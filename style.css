@@ -895,7 +895,7 @@ footer p {
     }
 
     .large{
-        color: var(--);
+        color: var(--dm-txt);
         font-weight: 800;
     }
 
